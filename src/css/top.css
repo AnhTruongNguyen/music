@@ -172,12 +172,12 @@ body {
 }
 
 .wrapper {
-  max-width: 1440px;
+  width: 1440px;
   margin: 0 auto;
 }
 
 .container {
-  max-width: 1350px;
+  width: 1350px;
   margin: 0 auto;
   padding: 0 0.9375rem;
 }
@@ -217,7 +217,7 @@ p {
 .header {
   z-index: 10;
   position: fixed;
-  width: 100%;
+  width: 1440px;
   background-color: #303030;
 }
 .header__container {
@@ -255,7 +255,7 @@ p {
   height: 0;
 }
 .banner .banner__container {
-  width: 48%;
+  width: 626px;
   position: relative;
   top: -29.5625rem;
   color: #fff;
