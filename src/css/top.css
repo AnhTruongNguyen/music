@@ -216,18 +216,17 @@ p {
 
 .header {
   z-index: 10;
-  position: fixed;
-  width: 1440px;
   background-color: #303030;
 }
 .header__container {
-  position: relative;
   display: flex;
   align-items: center;
   padding: 1.1875rem 0 1rem 1.375rem;
 }
 .header__container .seach {
-  padding-left: 327px;
+  display: flex;
+  padding-left: 329px;
+  margin-right: -0.125rem;
 }
 .header .menu {
   padding-left: 16.25rem;
