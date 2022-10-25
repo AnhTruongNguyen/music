@@ -3,33 +3,21 @@
     width: 100%
     z-index: 10
     position: fixed  
-    background-color: $bgColor
-    &__container
+    background-color: $bgColor 
+    .header__container
         display: flex
         align-items: center
         padding: 1.1875rem 1.375rem 1rem 1.375rem
         justify-content: space-between
-        .seach
-            display: flex
-            // padding-left: 329px
-            // right: 0
-            // position: absolute
-            margin-right: -0.125rem
-    .menu
-        // padding-left: 16.25rem
-        text-transform: uppercase
+    .seach
         display: flex
-        gap: 0 2.5rem
-        &-item
-            a
-                color: #fff
-                font-size: 1.5625rem
-            &:nth-child(2)
-                padding-left: .875rem
-            &:nth-child(3)
-                padding-left: .975rem
-            &:last-child
-                padding-left: .3125rem
+        margin-right: -0.125rem
+@media only screen and (max-width: 800.03px)
+    .header
+        .seach
+            display: none
+
+            
        
                     
         

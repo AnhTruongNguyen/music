@@ -1,11 +1,6 @@
 @charset "utf-8"
 body
     font-family: 'Oswald', sans-serif   
-
-.container
-    width: 1350px
-    margin: 0 auto
-    padding: 0 .9375rem
 h2
     font-size: 4.6875rem
     font-weight: 700
@@ -34,10 +29,29 @@ p
 @media screen and (min-width: 800.04px) 
     .wrapper   
         min-width: 1440px
+        margin: 0 auto   
+    .container
+        width: 1350px
         margin: 0 auto
+        padding: 0 .9375rem
+    .header
+        .menu__toggle
+            display: none
 
     
-@media screen and (max-width: 800.02px) 
+@media only screen and (max-width: 800.03px) 
     .wrapper 
-        min-width: 700px
+        min-width: 800px
         margin: 0 auto
+    .container
+        padding-left: 40px
+        padding-right: 40px
+    h2
+        font-size: 50px
+    p
+        font-size: 20px
+    .title
+        padding: 5rem 0
+        margin: 0 auto
+    .btn
+        padding: 0.6875rem 14.25rem
