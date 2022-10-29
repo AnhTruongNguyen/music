@@ -18,31 +18,31 @@
     display: flex
     justify-content: center
     align-items: center
-    width: 67px
-    height: 67px
+    width: 4.1875rem
+    height: 4.1875rem
     position: relative
     cursor: pointer
     float: right
     span
-        width: 33px
-        height: 3px
+        width: 2.0625rem
+        height: .1875rem
         background-color: #fff
 .menu__toggle::before 
     content: ""
-    width: 33px
-    height: 3px
+    width: 2.0625rem
+    height: .1875rem
     background-color: #fff
     position: absolute
-    transform: translateY(12px)
+    transform: translateY(.75rem)
     transition: all 0.2s linear
 
 .menu__toggle::after 
     content: ""
-    width: 33px
-    height: 3px
+    width: 2.0625rem
+    height: .1875rem
     background-color: #fff
     position: absolute
-    transform: translateY(-12px)
+    transform: translateY(-0.75rem)
     transition: all 0.2s linear
 
 .menu__toggle.open::before 
@@ -56,20 +56,20 @@
 .menu__toggle.open>span
     display: none
 
-@media only screen and (max-width: 800.03px) 
+@media only screen and (max-width: 50.0019rem) 
     .menu
         display: none
         align-items: center
         flex-direction: column
         position: fixed
-        top: 100px
+        top: 6.25rem
         left: 0
         right: 0
         justify-content: center
         width: 100%
         background-color: #303030
-        gap: 40px 0
-        padding-bottom: 40px
+        gap: 2.5rem 0
+        padding-bottom: 2.5rem
         &-item
             &:nth-child(2)
                 padding-left: 0
