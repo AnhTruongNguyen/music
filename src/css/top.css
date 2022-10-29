@@ -369,7 +369,7 @@ p {
 .banner .container .banner__container {
   width: 39.125rem;
   position: absolute;
-  top: 27%;
+  top: 22%;
   color: #fff;
   padding-left: 1.25rem;
 }
@@ -395,6 +395,7 @@ p {
     padding-top: 3.3125rem;
   }
   .banner .container .banner__container {
+    margin-top: -3%;
     width: 31.25rem;
   }
   .banner .container .banner__container h1 {
