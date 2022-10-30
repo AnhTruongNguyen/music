@@ -205,7 +205,6 @@ p {
 
 @media screen and (min-width: 50.0025rem) {
   .wrapper {
-    width: 100%;
     min-width: 90rem;
     margin: 0 auto;
   }
